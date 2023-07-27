@@ -5,6 +5,17 @@ import java.lang.reflect.Method;
 
 public class Data {
 
+    /**
+     * This method is used to get the sum of a given array of any object.
+     * 
+     * @param obj         The array of object to get the sum from.
+     * @param fieldGetter The getter method of the field to get the sum from or null
+     *                    if `obj` is an array of number.
+     * @return The sum of the given array of object.
+     * @throws NoSuchMethodException     If the getter method is not found.
+     * @throws IllegalAccessException    If the getter method is not accessible.
+     * @throws InvocationTargetException If the getter method throws an exception.
+     */
     public static double sum(Object[] obj, String fieldGetter)
             throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
         if (obj == null || obj.length == 0) {
