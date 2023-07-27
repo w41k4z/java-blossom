@@ -10,7 +10,7 @@ Java Blossom comes with the following hand-made libraries:
 
 - **ORM Library:** Simplify database interactions and data persistence with the integrated Object-Relational Mapping library.
 
-- **File Treatment Utilities:** Efficiently handle file operations, including reading, writing, and executing actions on files.
+- **Text file Utilities:** Efficiently handle file operations, including reading and writing
 
 - **Convenient Helpers:** Boost productivity with various helper classes, such as date helpers, class helpers, and more.
 
