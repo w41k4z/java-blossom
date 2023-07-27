@@ -32,7 +32,7 @@ public class DateHelper {
         try {
             return new String[] {
                     getValidSqlDateFormat((Class<?>) dateField.getClass().getMethod("getType").invoke(dateField)) };
-        } catch (NoSuchMethodException | SecurityException e) {
+        } catch (NoSuchMethodException e) {
             throw new IllegalArgumentException("The given element type is not a date field");
         }
     }
