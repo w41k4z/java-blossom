@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- * This class is used to read a text file.
+ * The {@code TextReader} class is used to read a text file.
  */
 public class TextReader extends BufferedReader {
 

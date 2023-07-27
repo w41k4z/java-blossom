@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * This class is used to write a text file.
+ * the {@code TextWriter} class is used to write in a text file.
  */
 public class TextWriter extends BufferedWriter {
 

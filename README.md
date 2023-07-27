@@ -12,7 +12,7 @@ Java Blossom comes with the following hand-made libraries:
 
 - **Text file Utilities:** Efficiently handle file operations, including reading and writing
 
-- **Convenient Helpers:** Boost productivity with various helper classes, such as date helpers, class helpers, and more.
+- **Convenient Helpers:** Boost productivity with various helper classes, such as date helper, class helper, number helper and more.
 
 - **Data Summarization and Averaging:** Analyze data effectively with tools to summarize, average, and manipulate data.
 
